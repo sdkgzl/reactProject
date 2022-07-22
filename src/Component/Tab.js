@@ -1,7 +1,6 @@
 import {useEffect,useState} from 'react';
 
 function Tab({children,activeTab ,onChange}){
-console.log(onChange);
 const [active,setActive] = useState(activeTab);
 
 useEffect(()=>{
